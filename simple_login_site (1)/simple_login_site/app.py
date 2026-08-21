@@ -7,7 +7,7 @@ app = Flask(__name__)
 app.secret_key = "CHANGE_THIS_TO_A_RANDOM_SECRET_KEY"
 DB = "users.db"
 ADMIN_USERNAME = "admin"
-ADMIN_PASSWORD_HASH = generate_password_hash("CHANGE_THIS_ADMIN_PASSWORD")
+ADMIN_PASSWORD_HASH = generate_password_hash("Loldumbkid")
 
 def db():
     conn = sqlite3.connect(DB)

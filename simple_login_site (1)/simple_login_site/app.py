@@ -4,7 +4,7 @@ import sqlite3
 from functools import wraps
 
 app = Flask(__name__)
-app.secret_key = "CHANGE_THIS_TO_A_RANDOM_SECRET_KEY"
+app.secret_key = "ihateniggas67"
 DB = "users.db"
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD_HASH = generate_password_hash("Loldumbkid")
